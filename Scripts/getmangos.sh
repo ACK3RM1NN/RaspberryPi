@@ -198,27 +198,27 @@ function GetPrerequisites()
       case ${VER} in
         "sarah")
           # Linux Mint 18 - Ubuntu Xenial based
-          su -c "apt -y install build-essential cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev" root
+          su -c "apt -y install build-essential cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev" root
           ;;
         "rosa")
           # Linux Mint 17.3 - Ubuntu Trusty based
-          su -c "apt -y install build-essential cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev" root
+          su -c "apt -y install build-essential cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev" root
           ;;
         "rafaela")
           # Linux Mint 17.2 - Ubuntu Trusty based
-          su -c "apt -y install build-essential cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev" root
+          su -c "apt -y install build-essential cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev" root
           ;;
         "rebecca")
           # Linux Mint 17.1 - Ubuntu Trusty based
-          su -c "apt -y install build-essential cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev" root
+          su -c "apt -y install build-essential cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev" root
           ;;
         "qiana")
           # Linux Mint 17 - Ubuntu Trusty based
-          su -c "apt -y install build-essential cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev" root
+          su -c "apt -y install build-essential cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev" root
           ;;
         "maya")
           # Linux Mint 13 - Ubuntu Precise based
-          su -c "apt -y install build-essential cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev" root
+          su -c "apt -y install build-essential cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev" root
           ;;
         "betsy")
           # LMDE 2 - Debian Jessie based
@@ -233,31 +233,31 @@ function GetPrerequisites()
       case ${VER} in
         "precise")
           # Ubuntu 12.04 LTS
-          su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev libtool" root
+          su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev libtool" root
           ;;
         "trusty")
           # Ubuntu 14.04 LTS
-          su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev libtool" root
+          su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev libtool" root
           ;;
         "xenial")
           # Ubuntu 16.04 LTS
-          su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev libtool" root
+          su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev libtool" root
           ;;
         "yakkety")
           # Ubuntu 16.10
-          su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev libtool" root
+          su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev libtool" root
           ;;
     "zesty")
       # Ubuntu 17.04
-      su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev libtool" root
+      su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev libtool" root
       ;;
     "artful")
       # Ubuntu 17.10
-      su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev libtool" root
+      su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev libtool" root
       ;;
     "bionic")
       # Ubuntu 18.04 LTS
-      su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev libtool" root
+      su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev libtool" root
       ;;
     "disco")
       # Ubuntu 19.04
@@ -265,7 +265,7 @@ function GetPrerequisites()
       ;;
     "focal")
       # Ubuntu 20.04
-      su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmysqlclient-dev libtool" root
+      su -c "apt-get -y install build-essential curl autoconf automake cmake libbz2-dev libace-dev libssl-dev libmariadbclient-dev libtool" root
       ;;
         *)
           OS_VER=0
