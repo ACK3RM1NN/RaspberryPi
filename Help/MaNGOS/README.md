@@ -21,7 +21,8 @@
 <code>nano /home/pi/wow-server/classic/bin/wowadmin.sh</code>
 <p></p>
 <p></p>
-<quote>
+<br>
+```
 #!/bin/bash
 
 THIS_FULLPATH=$(cd `dirname "${BASH_SOURCE[0]}"` && pwd -P)/`basename "${BASH_SOURCE[0]}"`
@@ -200,4 +201,4 @@ case "$1" in
     exit 1
     ;;
 esac
-</quote>
+}
